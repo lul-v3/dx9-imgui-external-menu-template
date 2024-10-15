@@ -254,7 +254,7 @@ void gui::Render() noexcept
 	if (ImGui::Button("GitHub"))
 	{
 		// Ersetze die URL mit der gewünschten Webseite
-		const char* url = "https://github.com/lul-v3";
+		const char* url = "https://github.com/lul-v3/dx9-imgui-external-menu-template";
 		ShellExecuteA(nullptr, "open", url, nullptr, nullptr, SW_SHOWNORMAL);
 	}
 
